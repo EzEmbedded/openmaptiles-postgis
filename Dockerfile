@@ -46,6 +46,8 @@ RUN set -eux  ;\
     #make install  ;\
     #rm -rf /opt/geos*  ;\
     ##
+
+    
     ## gzip extension
     cd /opt/  ;\
     git clone --quiet --depth 1 -b $PGSQL_GZIP_TAG $PGSQL_GZIP_REPO  ;\
