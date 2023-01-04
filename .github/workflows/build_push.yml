@@ -51,7 +51,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           context: .
           push: true
-          tags: scanlidocker/openmaptiles-postgis:v1432
+          tags: scanlidocker/openmaptiles-postgis:v14332
           labels: ${{ steps.meta.outputs.labels }}
       -
         name: Image digest
